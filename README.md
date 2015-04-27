@@ -64,4 +64,13 @@ If you want run MongoDB without password you can set tge environment variable `A
 
 By default is "yes".
 
+
+Run MongoDB Replica set
+----------------------------
+set REPL_SET enviorment variable to set --replSet replica set name to support mongodb replication feature
+    
+        docker run -d -p 27017:27017 -p 28017:28017 -e REPL_SET=replica-set-name tutum/mongodb
+
+
+
 **by http://www.tutum.co**
