@@ -26,3 +26,4 @@ EXPOSE 27017
 EXPOSE 28017
 
 CMD ["/run.sh"]
+
